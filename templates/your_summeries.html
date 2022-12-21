@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"/>
+	</head>
+    <body>
+
+      <div class="summaries_header_container">
+        <div class="summaries_header_content">
+          <h1>Summaries Made by {{ username }} </h1>
+        </div>
+      </div>
+
+        <div class="summaries_container">
+          <div class="summaries_content">
+            {% for x in html_entries: %}
+              <h3>{{x.summary_title}}</h3>
+              <!--<textarea id = "text" name = 'initial_text' rows ="15" cols="75">{{x.summary}}</textarea>-->
+              <h3>{{x.summary}}</h3> 
+            {% endfor %}
+          </div>
+        </div>
+
+        <div clas="footer">
+          <form methods="POST" action="/">
+            <input class="logout" type="submit" value="Logout"/>
+          </form>
+        </div>
+
+    </body>
+</html>

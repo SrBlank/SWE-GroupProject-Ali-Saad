@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"/>
+	</head>
+    <body>
+      
+      <div class="signup_container">
+        <div class="signup_content">
+          <h1>Enter a Username to Signup</h1>
+          <form style="box-sizing: border-box;" method = 'POST' action = "/handle_signup">
+            <input type="text" id = "user_data" name = 'username' placeholder="Enter a username..."/>
+            <input type="submit" value = "Submit"/>
+          </form>
+        </div>
+      </div>
+
+    </body>
+</html>

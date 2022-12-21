@@ -1,0 +1,109 @@
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/431/920/original/abstract-green-background-free-vector.jpg);
+  background-size: cover;
+}
+
+/*
+For summary_page.html
+*/
+
+.new_summary_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.new_summary_content {
+  position: relative;
+  text-align: center;
+}
+
+/*
+For your_summaries.html
+*/
+.summaries_header_container {
+  height: 50px;
+  width: 1250px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.summaries_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.summaries_content {
+  height:325px;
+  width:850px;
+  overflow: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.summaries_header_content {
+  position: relative;
+  text-align: center;
+}
+
+/*
+For login.html and signup.html
+*/
+.signup_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.signup_content {
+  position: relative;
+  text-align: center;
+}
+
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.login_content {
+  position: relative;
+  text-align: center;
+}
+
+/*
+For main_page.html
+*/
+.header_container {
+  height: 150px;
+  width: 1250px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.header_content {
+  position: relative;
+  text-align: center;
+}
+
+.sum_container {
+  height: 500px;
+  width: 1250px;
+  position: relative;
+  margin-bottom:30px;
+}
+
+.sum_content {
+  position: relative;
+  text-align: center;
+}
+

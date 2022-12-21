@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"/>
+	</head>
+    <body> 
+      <h3>{{ get_flashed_messages()[0] }}</h3>
+      <div class="login_container">
+        <div class="login_content">
+          <h1>Login</h1>
+          <form style="box-sizing: border-box;" method = 'POST' action = "/handle_login">
+            <input type="text" id = "user_data" name = 'username' placeholder="Enter your username..."/>
+            <input type="submit" value = "Submit"/>
+          </form>
+          <h4><a href = "{{url_for('signup')}}">Sign up here!</a></h4>
+        </div>
+      </div>
+
+    </body>
+</html>

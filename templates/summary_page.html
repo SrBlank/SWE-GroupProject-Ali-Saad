@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"/>
+	</head>
+    <body> 
+
+      <div class="new_summary_container">
+        <div class="new_summary_content">
+          <h2>Summariezed Text</h2>
+          <form method = 'POST' action = "/view_summeries"> 
+            <!--<textarea id = "text" name = 'initial_text' rows ="15" cols="75">{{html_summary}}</textarea>-->
+            <h3>{{html_summary}}</h3> 
+            <br>
+            <input type="submit" value = "View Summaries Here"/>
+          </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
