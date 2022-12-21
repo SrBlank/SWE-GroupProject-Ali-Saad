@@ -1,7 +1,7 @@
-# Group_project_Ali_Saad
+# SWE-GroupProject-Ali-Saad
 
 ## GitHub Repository 
-[Click Here to See the Repo](https://github.com/AliAlsaedi25/Group_project_Ali_Saad)
+[Click Here to See the Original Repo](https://github.com/AliAlsaedi25/Group_project_Ali_Saad)
 
 ## Project Planning
 Click Here to Visit the Project Planning [Google Document](https://docs.google.com/document/d/125poAb7YbmdxJpCr-qiFUpO1kSQ3NQKyfpR_Ng3kKNc/edit?usp=sharing)
